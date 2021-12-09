@@ -23,4 +23,30 @@
   fill: #4da422;
   isolation: isolate;
 }
+.form-container{
+  text-align: center;
+  width: 35vw;
+  margin: auto;
+  
+}
+.form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
 
+.form input{
+  padding: 1.2%;
+  margin: 3%;
+  border-radius: 35px;
+  border: hsl(180, 64%, 89%) solid;
+}
+.form label{
+  color: rgb(129, 126, 126);
+}
+.form button{
+  width: 80%;
+  margin-left: 8.7%;
+  border-radius: 50px;
+}

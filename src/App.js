@@ -1,4 +1,5 @@
 import "./App.css"
+import ConnectForm from "./componets/connectForm";
 
 function App() {
   return (
@@ -70,7 +71,7 @@ function App() {
 </div>
 </div> 
 </header>
-
+<ConnectForm/>
 
 <section id="service" className="services-area">
 <div className="container">
